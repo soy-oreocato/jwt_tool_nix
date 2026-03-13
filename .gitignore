@@ -1,0 +1,38 @@
+# Nix
+result/
+result-*
+.dirlocals
+.envrc
+.flake-info
+dist/
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.pyc
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+
+# JWT Tool specific
+~/.jwt_tool/
+jwtconf.ini
+
+# Editor backups
+*.bak
+*.orig
